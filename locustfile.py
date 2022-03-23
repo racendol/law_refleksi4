@@ -10,12 +10,12 @@ class MahasiswaTest(HttpUser):
     def get(self):
         self.client.get('/mahasiswa/123456789')
 
-    # #load 5 min
+    # #load
     # @task
     # def put(self):
     #     self.client.put('/mahasiswa/123456789', json={"nama":"test", "alamat":"testalamat", "npm":"12345678905"})
 
-    #stress 2.30 min
+    #stress
     # @task
     # def create(self):
     #     npm = ''.join(random.choices(string.ascii_letters + string.digits, k=32))
